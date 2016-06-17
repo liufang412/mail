@@ -20,6 +20,9 @@ body li {
 body .weight {
   font-weight: bold;
 }
+body header {
+  width: 1348px;
+}
 body header .logo {
   float: left;
 }
@@ -127,6 +130,9 @@ body header .header-right div p {
   left: 444px;
   top: 14px;
 }
+body .main {
+  width: 1348px;
+}
 body .main .col-md-3 {
   float: left;
 }
@@ -179,7 +185,7 @@ body .main .col-md-3 .main-left-up .main-left a:hover {
 }
 body .main .col-md-3 .main-left-down {
   width: 180px;
-  height: 400px;
+  height: 420px;
   position: relative;
   margin-left: 4px;
   background-image: url(../images/topline.gif);
@@ -260,7 +266,7 @@ body .main .col-md-3 .main-left-down .main-left-bottom {
   height: 20px;
   background-repeat: no-repeat;
   display: block;
-  margin-top: -6px;
+  margin-top: 14px;
   margin-left: 5px;
 }
 body .main .col-md-9 {
@@ -383,7 +389,7 @@ body .main .col-md-9 .main-right-content .main-content-left .banquan .banben {
 body .main .col-md-9 .main-right-content .main-content-right {
   float: left;
   width: 310px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 body .main .col-md-9 .main-right-content .main-content-right .jlzx {
   margin-top: 60px;
@@ -536,6 +542,52 @@ body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .input1 {
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .send {
   padding: 5px 0px 15px 0px;
   width: 860px;
+  color: #1E5494;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add {
+  color: #1E5494;
+  padding-top: 5px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add span {
+  background-image: url(../images/compose.png);
+  width: 16px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add1 {
+  background-position: 0px 0px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add2 {
+  background-position: -1px -478px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add3 {
+  background-position: -1px -24px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add4 {
+  background-position: -1px -72px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add6 {
+  background-image: url(../images/compose2.png);
+  background-position: 0px -623px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add7 {
+  background-position: 0px -287px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add8 {
+  background-position: 0px -95px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add9 {
+  background-image: url(../images/compose2.png);
+  background-position: 0px -667px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add10 {
+  background-position: 0px -167px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .add .add5 {
+  background-image: url(../images/compose2.png);
+  background-position: 0px -646px;
+  width: 10px;
 }
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .input2 {
   width: 860px;
@@ -544,6 +596,7 @@ body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .input2 {
 }
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail {
   text-decoration: none;
+  position: relative;
 }
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .xx-name {
   font-weight: bold;
@@ -553,6 +606,54 @@ body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .xx-mail {
   color: #000;
 }
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .xx-qqmail-more {
+  color: #798699;
+  font-size: 10px;
+  display: inline-block;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more {
+  position: absolute;
+  border: 1px solid #A7A7A7;
+  width: 210px;
+  height: 60px;
+  background-color: #fff;
+  top: -64px;
+  left: 0px;
+  display: none;
+  border-radius: 4px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more hr {
+  width: 190px;
+  border-top: none;
+  margin: 0 auto;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more .qqnum {
+  color: #fff;
+  width: 210px;
+  margin: 6px 0px 4px 0px;
+  text-indent: 10px;
+  background-color: #3470CC;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more .qqname {
+  padding: 8px 0px;
+  margin: 0 auto;
+  width: 150px;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more .qqname .qq-name {
+  color: #000;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more .qqname .qq-name2 {
+  color: #7B7B7B;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more .qqname .qq-name3 {
+  color: #1E5494;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .qqmail-more .qqname .qq-name3:hover {
+  text-decoration: underline;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail .xx-qqmail-more:hover + .qqmail-more {
+  display: block;
+}
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-other {
   color: #000;
   display: inline-block;
@@ -560,6 +661,9 @@ body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-other {
 }
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .xx-qqmail:hover {
   text-decoration: none;
+}
+body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-left .zhengwen {
+  vertical-align: top;
 }
 body .main .col-md-9 .main-right-content .xx .main-xx .main-xx-right {
   width: 195px;

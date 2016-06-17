@@ -22,6 +22,7 @@ body{
 		font-weight: bold;
 	}
 	header{
+		width: 1348px;
 		.logo{
 			float: left;
 			img{
@@ -135,6 +136,7 @@ body{
 		}
 	}
 	.main{
+		width: 1348px;
 		.col-md-3{
 			float: left;
 			.main-left-up{
@@ -189,7 +191,7 @@ body{
 			}
 			.main-left-down{
 				width: 180px;
-				height: 400px;
+				height: 420px;
 				position: relative;
 				margin-left: 4px;
 				background-image:url(../images/topline.gif);
@@ -275,7 +277,7 @@ body{
 					height: 20px;
 					background-repeat: no-repeat;
 					display: block;
-					margin-top: -6px;
+					margin-top: 14px;
 					margin-left: 5px;
 				}
 			}
@@ -406,7 +408,7 @@ body{
 				.main-content-right{
 					float: left;
 					width: 310px;
-					margin-left: 10px;
+					margin-left: 5px;
 					.jlzx{
 						margin-top: 60px;
 						margin-bottom: 20px;
@@ -561,6 +563,52 @@ body{
 							.send{
 								padding: 5px 0px 15px 0px;
 								width: 860px;
+								color: #1E5494;
+							}
+							.add{
+								color: #1E5494;
+								padding-top: 5px;
+								span{
+									background-image: url(../images/compose.png);
+									width: 16px;
+									height: 20px;
+									display: inline-block;
+									vertical-align: middle;
+								}
+								.add1{
+									background-position: 0px 0px;
+								}
+								.add2{
+									background-position: -1px -478px;
+								}
+								.add3{
+									background-position: -1px -24px;
+								}
+								.add4{
+									background-position: -1px -72px;
+								}
+								.add6{
+									background-image: url(../images/compose2.png);
+									background-position: 0px -623px;
+								}
+								.add7{
+									background-position: 0px -287px;
+								}
+								.add8{
+									background-position: 0px -95px;
+								}
+								.add9{
+									background-image: url(../images/compose2.png);
+									background-position: 0px -667px;
+								}
+								.add10{
+									background-position: 0px -167px;
+								}
+								.add5{
+									background-image: url(../images/compose2.png);
+									background-position: 0px -646px;
+									width: 10px;
+								}
 							}
 							.input2{
 								width: 860px;
@@ -569,6 +617,7 @@ body{
 							}
 							.xx-qqmail{
 								text-decoration: none;
+								position: relative;
 								.xx-name{
 								font-weight: bold;
 								color: #000;
@@ -576,6 +625,56 @@ body{
 								}
 								.xx-mail{
 									color: #000;
+								}
+								.xx-qqmail-more{
+									color: #798699;
+									font-size: 10px;
+									display: inline-block;
+								}
+								.qqmail-more{
+									position: absolute;
+									border: 1px solid #A7A7A7;
+									width: 210px;
+									height: 60px;
+									background-color: #fff;
+									top: -64px;
+									left: 0px;
+									display: none;
+									border-radius: 4px;
+
+									hr{
+										width: 190px;
+										border-top: none;
+										margin: 0 auto;
+									}
+									.qqnum{
+										color: #fff;
+										width: 210px;
+										margin:6px 0px 4px 0px;
+										text-indent: 10px;
+										background-color: #3470CC;
+									}
+									.qqname{
+										padding: 8px 0px;
+										margin: 0 auto;
+										width: 150px;
+										.qq-name{
+											color: #000;
+										}
+										.qq-name2{
+											color: #7B7B7B;
+										}
+										.qq-name3{
+											color: #1E5494;
+										}
+										.qq-name3:hover{
+											text-decoration: underline;
+										}
+									}
+
+								}
+								.xx-qqmail-more:hover+.qqmail-more{
+									display: block;
 								}
 							}
 							.xx-other{
@@ -589,7 +688,7 @@ body{
 							}
 							
 							.zhengwen{
-								// margin-top: -300px;
+								vertical-align: top;
 							}
 						}
 						.main-xx-right{
